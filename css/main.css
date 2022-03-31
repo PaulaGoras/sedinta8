@@ -1,0 +1,48 @@
+/* Proprietate Custom/Variabile de CSS */
+
+:root {
+  --text-primary: #101d42;
+  --text-secondary:#fbb44c;
+  --text-dark:#2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff; 
+
+  --bg-primary: #141e4c;
+
+  --font-size-tiny: 0.75rem;
+  --font-size-medium: 0.875rem;
+  --font-size-large: 1rem;
+
+  --spacing-tiny: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 12px;
+}
+
+
+/* a {
+    color: var(--text-primary);
+}
+
+p{
+    font-size: var(--font-size-large); */
+
+
+/* Resetarea proprietatilor de CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+ a {
+     text-decoration: none;
+ }
